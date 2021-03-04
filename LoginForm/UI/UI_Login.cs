@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Service;
 
 namespace UI
 {
@@ -19,6 +20,10 @@ namespace UI
 
         private void button1_Click(object sender, EventArgs e)
         {
+            Login_Service login = new Login_Service();
+            bool logSuccesFull = login.GetUser(txtUsername.Text, txtPassword.Text);
+            
+            
             if (txtUsername.Text == "Bram" && txtPassword.Text == "Celine")
             {
                 new UI_Page().Show();
