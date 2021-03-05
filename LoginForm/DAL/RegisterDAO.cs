@@ -48,6 +48,24 @@ namespace DAL
                 // for this example let's just show a message
                 Console.WriteLine("ERROR:" + ex.Message);
             }
+            dbConnection.Close();
+        }
+
+        public bool checkExist(string username)
+        {
+            dbConnection.Open();
+            using (SqlCommand command = new SqlCommand("SELECT [Username], [Password] FROM [User] WHERE [Username] = @Username", dbConnection))
+            {
+                command.Parameters.AddWithValue("@username", username);
+                SqlDataReader reader = command.ExecuteReader();
+                if (reader.HasRows)
+                {
+                    return true;
+                }
+                reader.Close();
+                dbConnection.Close();
+                return false;
+            }
         }
     }
 }
