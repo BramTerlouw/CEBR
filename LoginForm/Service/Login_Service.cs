@@ -12,8 +12,8 @@ namespace Service
         {
             try
             {
-                User user = loginDAO.GetUser(name);
-                return CheckPassWord(user, name, password);
+                User user = loginDAO.GetUser(name); // get user in dal layer
+                return CheckPassWord(user, name, password); // compare and check
             }
             catch (Exception ex)
             {

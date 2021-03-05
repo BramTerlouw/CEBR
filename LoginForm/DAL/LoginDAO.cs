@@ -20,7 +20,7 @@ namespace DAL
         {
             dbConnection.Open();
             SqlCommand command = new SqlCommand("SELECT [Username], [Password] FROM [User] WHERE [Username] = @Username", dbConnection);
-            command.Parameters.AddWithValue("@Username", name);
+            command.Parameters.AddWithValue("@Username", name); // query to get user and password for specifik user
             SqlDataReader reader = command.ExecuteReader();
             User user = null;
 
@@ -40,6 +40,7 @@ namespace DAL
             string password = (string)reader["Password"];
             User user = new User(username, password);
 
+            // return user
             return user;
         }
     }

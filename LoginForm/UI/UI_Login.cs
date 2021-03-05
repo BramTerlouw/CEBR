@@ -21,7 +21,7 @@ namespace UI
         private void button1_Click(object sender, EventArgs e)
         {
             Login_Service login = new Login_Service();
-            bool logSuccesFull = login.GetUser(txtUsername.Text, txtPassword.Text);
+            bool logSuccesFull = login.GetUser(txtUsername.Text, txtPassword.Text); // reference to logic, returns bool
             
             
             if (logSuccesFull)
