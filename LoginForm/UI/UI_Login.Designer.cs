@@ -59,11 +59,11 @@ namespace UI
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Modern No. 20", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label2.Font = new System.Drawing.Font("Modern No. 20", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(214)))), ((int)(((byte)(214)))), ((int)(((byte)(214)))));
-            this.label2.Location = new System.Drawing.Point(123, 90);
+            this.label2.Location = new System.Drawing.Point(108, 87);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(129, 34);
+            this.label2.Size = new System.Drawing.Size(158, 41);
             this.label2.TabIndex = 1;
             this.label2.Text = "LOG IN";
             // 
@@ -107,7 +107,7 @@ namespace UI
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(196)))), ((int)(((byte)(206)))));
             this.label3.Location = new System.Drawing.Point(72, 541);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(28, 17);
+            this.label3.Size = new System.Drawing.Size(43, 28);
             this.label3.TabIndex = 5;
             this.label3.Text = "Exit";
             this.label3.Click += new System.EventHandler(this.label3_Click);
@@ -117,9 +117,9 @@ namespace UI
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point);
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(196)))), ((int)(((byte)(206)))));
-            this.label4.Location = new System.Drawing.Point(235, 541);
+            this.label4.Location = new System.Drawing.Point(201, 541);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(73, 17);
+            this.label4.Size = new System.Drawing.Size(107, 28);
             this.label4.TabIndex = 6;
             this.label4.Text = "Clear fields";
             this.label4.Click += new System.EventHandler(this.label4_Click);
@@ -185,7 +185,7 @@ namespace UI
             // 
             // UI_Login
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 28F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(43)))), ((int)(((byte)(48)))));
             this.ClientSize = new System.Drawing.Size(380, 625);
