@@ -21,27 +21,8 @@ namespace DAL
 
         public void AddToDataBase(string username, string password)
         {
-            //dbConnection.Open();
-            //try
-            //{
-            //    SqlDataAdapter adapter = new SqlDataAdapter();
-            //    adapter.InsertCommand = new SqlCommand("INSERT INTO [user] VALUES(@username, @password)", dbConnection);
-            //    .Parameters.AddWithValue("@Username", username); // query to get user and password for specifik user
-            //    command.Parameters.AddWithValue("@password", password);
-            //    adapter.InsertCommand.ExecuteNonQuery();
-            //    MessageBox.Show("Row inserted !! ");
-            //}
-            //catch (Exception ex)
-            //{
-            //    MessageBox.Show(ex.ToString());
-            //}
-            //dbConnection.Close();
-
             try
             {
-                // Open the connection to the database. 
-                // This is the first critical step in the process.
-                // If we cannot reach the db then we have connectivity problems
                 dbConnection.Open();
 
                 // Prepare the command to be executed on the db

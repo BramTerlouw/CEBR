@@ -47,6 +47,7 @@ namespace UI
             this.panel4 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
             this.panel6 = new System.Windows.Forms.Panel();
+            this.label5 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -183,12 +184,23 @@ namespace UI
             this.panel6.Size = new System.Drawing.Size(1, 40);
             this.panel6.TabIndex = 6;
             // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(210, 171);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(82, 28);
+            this.label5.TabIndex = 9;
+            this.label5.Text = "Register";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
+            // 
             // UI_Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 28F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(43)))), ((int)(((byte)(48)))));
             this.ClientSize = new System.Drawing.Size(380, 625);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.panel6);
             this.Controls.Add(this.panel5);
             this.Controls.Add(this.panel4);
@@ -227,6 +239,7 @@ namespace UI
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Panel panel6;
+        private Label label5;
     }
 }
 
