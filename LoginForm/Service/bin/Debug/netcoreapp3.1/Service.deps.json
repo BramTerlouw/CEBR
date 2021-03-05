@@ -6,14 +6,15 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "UI/1.0.0": {
+      "Service/1.0.0": {
         "dependencies": {
-          "Service": "1.0.0",
+          "DAL": "1.0.0",
+          "Model": "1.0.0",
           "System.Configuration.ConfigurationManager": "5.0.0",
           "System.Data.SqlClient": "4.8.2"
         },
         "runtime": {
-          "UI.dll": {}
+          "Service.dll": {}
         }
       },
       "Microsoft.NETCore.Platforms/5.0.0": {},
@@ -243,22 +244,11 @@
         "runtime": {
           "Model.dll": {}
         }
-      },
-      "Service/1.0.0": {
-        "dependencies": {
-          "DAL": "1.0.0",
-          "Model": "1.0.0",
-          "System.Configuration.ConfigurationManager": "5.0.0",
-          "System.Data.SqlClient": "4.8.2"
-        },
-        "runtime": {
-          "Service.dll": {}
-        }
       }
     }
   },
   "libraries": {
-    "UI/1.0.0": {
+    "Service/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -374,11 +364,6 @@
       "sha512": ""
     },
     "Model/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Service/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

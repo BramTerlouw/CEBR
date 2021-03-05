@@ -24,7 +24,7 @@ namespace UI
             bool logSuccesFull = login.GetUser(txtUsername.Text, txtPassword.Text);
             
             
-            if (txtUsername.Text == "Bram" && txtPassword.Text == "Celine")
+            if (logSuccesFull)
             {
                 new UI_Page().Show();
                 this.Hide();

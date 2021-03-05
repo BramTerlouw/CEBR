@@ -16,12 +16,30 @@ namespace DAL
             dbConnection = new SqlConnection(connString);
         }
 
-        public User GetUser()
+        public User GetUser(string name)
         {
             dbConnection.Open();
-            SqlCommand command = new SqlCommand("", dbConnection);
+            SqlCommand command = new SqlCommand("SELECT [Username], [Password] FROM [User] WHERE [Username] = @Username", dbConnection);
+            command.Parameters.AddWithValue("@Username", name);
             SqlDataReader reader = command.ExecuteReader();
             User user = null;
+
+            if (reader.Read())
+            {
+                user = ReadUser(reader);
+            }
+            reader.Close();
+            dbConnection.Close();
+            return user;
+        }
+
+        private User ReadUser(SqlDataReader reader)
+        {
+            // retrieve all data
+            string username = (string)reader["Username"];
+            string password = (string)reader["Password"];
+            User user = new User(username, password);
+
             return user;
         }
     }

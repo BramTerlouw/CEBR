@@ -12,7 +12,7 @@ namespace Service
         {
             try
             {
-                User user = loginDAO.GetUser();
+                User user = loginDAO.GetUser(name);
                 return CheckPassWord(user, name, password);
             }
             catch (Exception ex)
