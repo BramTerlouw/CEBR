@@ -107,6 +107,7 @@ namespace UI
             this.txtUsername.Location = new System.Drawing.Point(63, 226);
             this.txtUsername.Multiline = true;
             this.txtUsername.Name = "txtUsername";
+            this.txtUsername.PlaceholderText = "Username...";
             this.txtUsername.Size = new System.Drawing.Size(236, 23);
             this.txtUsername.TabIndex = 7;
             // 
@@ -115,10 +116,12 @@ namespace UI
             this.txtPassword.Location = new System.Drawing.Point(63, 305);
             this.txtPassword.Multiline = true;
             this.txtPassword.Name = "txtPassword";
+            this.txtPassword.PasswordChar = '*';
+            this.txtPassword.PlaceholderText = "Password...";
             this.txtPassword.Size = new System.Drawing.Size(236, 23);
             this.txtPassword.TabIndex = 8;
             // 
-            // Form1
+            // UI_Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -134,7 +137,7 @@ namespace UI
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "Form1";
+            this.Name = "UI_Login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.ResumeLayout(false);

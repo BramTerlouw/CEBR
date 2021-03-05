@@ -24,12 +24,12 @@ namespace Service
 
         private bool CheckPassWord(User user, string name, string password)
         {
-            if ((user.name == name) && user.password == password)
+            if ((user is null) || (user.name != name) || (user.password != password))
             {
-                return true;
+                return false;
             }
             else
-                return false;
+                return true;
         }
     }
 }
