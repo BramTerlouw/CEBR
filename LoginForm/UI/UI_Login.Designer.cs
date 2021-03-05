@@ -59,11 +59,11 @@ namespace UI
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Times New Roman", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label2.Font = new System.Drawing.Font("Modern No. 20", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(214)))), ((int)(((byte)(214)))), ((int)(((byte)(214)))));
-            this.label2.Location = new System.Drawing.Point(125, 95);
+            this.label2.Location = new System.Drawing.Point(123, 90);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(127, 36);
+            this.label2.Size = new System.Drawing.Size(129, 34);
             this.label2.TabIndex = 1;
             this.label2.Text = "LOG IN";
             // 
@@ -71,7 +71,7 @@ namespace UI
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(143)))), ((int)(((byte)(124)))));
             this.panel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(69)))), ((int)(((byte)(92)))));
-            this.panel1.Location = new System.Drawing.Point(63, 291);
+            this.panel1.Location = new System.Drawing.Point(72, 291);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(236, 1);
             this.panel1.TabIndex = 2;
@@ -79,7 +79,7 @@ namespace UI
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(143)))), ((int)(((byte)(124)))));
-            this.panel2.Location = new System.Drawing.Point(63, 379);
+            this.panel2.Location = new System.Drawing.Point(72, 379);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(236, 1);
             this.panel2.TabIndex = 3;
@@ -91,7 +91,7 @@ namespace UI
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(43)))), ((int)(((byte)(48)))));
-            this.button1.Location = new System.Drawing.Point(63, 476);
+            this.button1.Location = new System.Drawing.Point(72, 476);
             this.button1.Margin = new System.Windows.Forms.Padding(0);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(236, 51);
@@ -105,7 +105,7 @@ namespace UI
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point);
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(196)))), ((int)(((byte)(206)))));
-            this.label3.Location = new System.Drawing.Point(63, 541);
+            this.label3.Location = new System.Drawing.Point(72, 541);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(28, 17);
             this.label3.TabIndex = 5;
@@ -117,7 +117,7 @@ namespace UI
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point);
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(196)))), ((int)(((byte)(206)))));
-            this.label4.Location = new System.Drawing.Point(226, 541);
+            this.label4.Location = new System.Drawing.Point(235, 541);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(73, 17);
             this.label4.TabIndex = 6;
@@ -129,7 +129,7 @@ namespace UI
             this.txtUsername.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(214)))), ((int)(((byte)(214)))), ((int)(((byte)(214)))));
             this.txtUsername.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtUsername.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtUsername.Location = new System.Drawing.Point(63, 241);
+            this.txtUsername.Location = new System.Drawing.Point(72, 241);
             this.txtUsername.Multiline = true;
             this.txtUsername.Name = "txtUsername";
             this.txtUsername.Size = new System.Drawing.Size(236, 40);
@@ -140,7 +140,7 @@ namespace UI
             this.txtPassword.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(214)))), ((int)(((byte)(214)))), ((int)(((byte)(214)))));
             this.txtPassword.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtPassword.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtPassword.Location = new System.Drawing.Point(63, 333);
+            this.txtPassword.Location = new System.Drawing.Point(72, 333);
             this.txtPassword.Multiline = true;
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.PasswordChar = '*';
@@ -151,7 +151,7 @@ namespace UI
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(214)))), ((int)(((byte)(214)))), ((int)(((byte)(214)))));
             this.panel3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(214)))), ((int)(((byte)(214)))), ((int)(((byte)(214)))));
-            this.panel3.Location = new System.Drawing.Point(63, 134);
+            this.panel3.Location = new System.Drawing.Point(70, 126);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(236, 1);
             this.panel3.TabIndex = 3;
@@ -160,7 +160,7 @@ namespace UI
             // 
             this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(214)))), ((int)(((byte)(214)))), ((int)(((byte)(214)))));
             this.panel4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(214)))), ((int)(((byte)(214)))), ((int)(((byte)(214)))));
-            this.panel4.Location = new System.Drawing.Point(63, 94);
+            this.panel4.Location = new System.Drawing.Point(70, 86);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(236, 1);
             this.panel4.TabIndex = 4;
@@ -169,7 +169,7 @@ namespace UI
             // 
             this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(214)))), ((int)(((byte)(214)))), ((int)(((byte)(214)))));
             this.panel5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(6)))), ((int)(((byte)(102)))));
-            this.panel5.Location = new System.Drawing.Point(298, 94);
+            this.panel5.Location = new System.Drawing.Point(305, 86);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(1, 40);
             this.panel5.TabIndex = 5;
@@ -178,7 +178,7 @@ namespace UI
             // 
             this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(214)))), ((int)(((byte)(214)))), ((int)(((byte)(214)))));
             this.panel6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(214)))), ((int)(((byte)(214)))), ((int)(((byte)(214)))));
-            this.panel6.Location = new System.Drawing.Point(63, 95);
+            this.panel6.Location = new System.Drawing.Point(70, 87);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(1, 40);
             this.panel6.TabIndex = 6;
