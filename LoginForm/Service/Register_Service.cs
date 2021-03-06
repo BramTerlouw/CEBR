@@ -14,6 +14,10 @@ namespace Service
             {
                 registerDAO.AddToDataBase(username, password);
             }
+            else
+            {
+                throw new Exception("User already exists");
+            }
         }
     }
 }

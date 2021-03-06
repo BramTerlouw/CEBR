@@ -19,7 +19,16 @@ namespace UI
         private void btnRegister_Click(object sender, EventArgs e)
         {
             Register_Service register_Service = new Register_Service();
-            register_Service.Insert(textInputName.Text, textInputPassword.Text);
+            try
+            {
+                register_Service.Insert(textInputName.Text, textInputPassword.Text);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+                
+            }
+            
         }
     }
 }
