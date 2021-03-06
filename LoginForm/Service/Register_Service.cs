@@ -10,13 +10,17 @@ namespace Service
         RegisterDAO registerDAO = new RegisterDAO();
         public void Insert(string username, string password)
         {
-            if (!registerDAO.checkExist(username))
+            if (registerDAO.checkExist(username))
             {
-                registerDAO.AddToDataBase(username, password);
+                throw new Exception("User already exists");
+            }
+            else if ((username == "") || (username == null))
+            {
+                throw new Exception("");
             }
             else
             {
-                throw new Exception("User already exists");
+                registerDAO.AddToDataBase(username, password);
             }
         }
     }
