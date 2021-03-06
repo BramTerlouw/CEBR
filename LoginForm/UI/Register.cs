@@ -28,7 +28,6 @@ namespace UI
                 MessageBox.Show(ex.Message);
                 
             }
-            
         }
     }
 }
